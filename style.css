@@ -1,0 +1,38 @@
+
+/* Common styles for p and a tags */
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+p {
+    font-size: larger;
+}
+h2{
+    font-family: 'Alfa Slab One', cursive;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s, color 0.2s, background-color 0.2s;
+    border-radius: 20px;
+}
+
+/* Hover styles for a tag */
+a:hover {
+    transform: scale(1.1);
+    background-color: darkred;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    p {
+        font-size: medium; /* Adjust font size for smaller screens */
+    }
+    a {
+        padding: 8px 16px; /* Adjust padding for smaller screens */
+    }
+}
