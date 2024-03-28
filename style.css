@@ -8,7 +8,8 @@ p {
     font-size: larger;
 }
 h2{
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Alfa Slab One';
+    font-size: 40px;
 }
 
 a {
